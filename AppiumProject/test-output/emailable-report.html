@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">CrossPlatformSuite</th></tr>
+<tr><td><a href="#t0">RealDeviceTest2</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">151,788</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">RealDeviceTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">192,813</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num attn">2</th><th class="num">344,601</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CrossPlatformSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RealDeviceTest2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.flipkart.addtocart.InsertProductToCart</td><td><a href="#m0">insertProductToCart</a></td><td rowspan="1">1665140366749</td><td rowspan="1">10098</td></tr><tr><th colspan="4">RealDeviceTest2 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">org.flipkart.addtocart.InsertProductToCart</td><td><a href="#m1">insertProductToCart</a></td><td rowspan="2">1665140283105</td><td rowspan="2">22720</td></tr><tr class="retriedeven"><td><a href="#m2">insertProductToCart</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">RealDeviceTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.flipkart.addtocart.InsertProductToCart</td><td><a href="#m3">insertProductToCart</a></td><td rowspan="1">1665140391655</td><td rowspan="1">25909</td></tr><tr><th colspan="4">RealDeviceTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">org.flipkart.addtocart.InsertProductToCart</td><td><a href="#m4">insertProductToCart</a></td><td rowspan="2">1665140284413</td><td rowspan="2">25778</td></tr><tr class="retriedeven"><td><a href="#m5">insertProductToCart</a></td></tr></tbody>
+</table>
+<h2>RealDeviceTest2</h2><h3 id="m0">org.flipkart.addtocart.InsertProductToCart#insertProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=76, noReset=true, viewportRect={top=76, left=0, width=1080, height=2144}, deviceName=x4soukivqw59pnjr, platform=LINUX, deviceUDID=x4soukivqw59pnjr, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=x4soukivqw59pnjr}, platformVersion=11, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=x4soukivqw59pnjr, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=2.75, locationContextEnabled=false, deviceScreenDensity=440, deviceModel=Redmi Note 8 Pro}]
+Session ID: 3be9c0af-1c07-4b88-b4c6-3bbf8bd80474
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Brand Mall&apos;]/parent::android.view.ViewGroup/android.view.ViewGroup[@index=&apos;2&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.HomePage.searchProduct(HomePage.java:31)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">org.flipkart.addtocart.InsertProductToCart#insertProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=76, noReset=true, viewportRect={top=76, left=0, width=1080, height=2144}, deviceName=x4soukivqw59pnjr, platform=LINUX, deviceUDID=x4soukivqw59pnjr, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=x4soukivqw59pnjr}, platformVersion=11, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=x4soukivqw59pnjr, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=2.75, locationContextEnabled=false, deviceScreenDensity=440, deviceModel=Redmi Note 8 Pro}]
+Session ID: 76e12aec-9722-4719-be66-1540f3ac4c1b
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">org.flipkart.addtocart.InsertProductToCart#insertProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.xpath: //android.widget.TextView[@text=&apos;Brand Mall&apos;]/parent::android.view.ViewGroup/android.view.ViewGroup[@index=&apos;2&apos;]&apos; does not exist in DOM anymore (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=76, noReset=true, viewportRect={top=76, left=0, width=1080, height=2144}, deviceName=x4soukivqw59pnjr, platform=LINUX, deviceUDID=x4soukivqw59pnjr, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=x4soukivqw59pnjr}, platformVersion=11, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=x4soukivqw59pnjr, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=2.75, locationContextEnabled=false, deviceScreenDensity=440, deviceModel=Redmi Note 8 Pro}]
+Session ID: 90fa1938-142b-4a17-b927-af9c83db3bed
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:33)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.HomePage.searchProduct(HomePage.java:31)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RealDeviceTest</h2><h3 id="m3">org.flipkart.addtocart.InsertProductToCart#insertProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=77, noReset=true, viewportRect={top=77, left=0, width=720, height=1334}, deviceName=R9ZNC03VN6X, platform=LINUX, deviceUDID=R9ZNC03VN6X, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=R9ZNC03VN6X}, platformVersion=12, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=R9ZNC03VN6X, deviceApiLevel=31, deviceManufacturer=samsung, deviceScreenSize=720x1560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=1.75, locationContextEnabled=false, deviceScreenDensity=280, deviceModel=SM-M115F}]
+Session ID: 24e49bc7-7c5f-422b-92c5-8b8bc844470f
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">org.flipkart.addtocart.InsertProductToCart#insertProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.62 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=77, noReset=true, viewportRect={top=77, left=0, width=720, height=1334}, deviceName=R9ZNC03VN6X, platform=LINUX, deviceUDID=R9ZNC03VN6X, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=R9ZNC03VN6X}, platformVersion=12, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=R9ZNC03VN6X, deviceApiLevel=31, deviceManufacturer=samsung, deviceScreenSize=720x1560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=1.75, locationContextEnabled=false, deviceScreenDensity=280, deviceModel=SM-M115F}]
+Session ID: b610803e-c703-4455-80b4-6c36b23ab007
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">org.flipkart.addtocart.InsertProductToCart#insertProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.58 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=77, noReset=true, viewportRect={top=77, left=0, width=720, height=1334}, deviceName=R9ZNC03VN6X, platform=LINUX, deviceUDID=R9ZNC03VN6X, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=R9ZNC03VN6X}, platformVersion=12, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=R9ZNC03VN6X, deviceApiLevel=31, deviceManufacturer=samsung, deviceScreenSize=720x1560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=1.75, locationContextEnabled=false, deviceScreenDensity=280, deviceModel=SM-M115F}]
+Session ID: 163d9f02-3abc-43ee-ae69-a4a02c0fbf4f
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

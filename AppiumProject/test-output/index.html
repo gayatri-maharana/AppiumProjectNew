@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CrossPlatformSuite" class="navigator-link">
+              <span class="suite-name border-failed">CrossPlatformSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CrossPlatformSuite" class="navigator-link ">
+                    <span>C:\Users\Dell\git\repository7\AppiumProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CrossPlatformSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CrossPlatformSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CrossPlatformSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CrossPlatformSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CrossPlatformSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CrossPlatformSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 2 failed,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CrossPlatformSuite" class="hide-methods failed suite-CrossPlatformSuite"> (hide)</a> <!-- hide-methods failed suite-CrossPlatformSuite -->
+                      <a href="#" panel-name="suite-CrossPlatformSuite" class="show-methods failed suite-CrossPlatformSuite"> (show)</a> <!-- show-methods failed suite-CrossPlatformSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CrossPlatformSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossPlatformSuite" title="org.flipkart.addtocart.InsertProductToCart" class="method navigator-link" hash-for-method="insertProductToCart">insertProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossPlatformSuite" title="org.flipkart.addtocart.InsertProductToCart" class="method navigator-link" hash-for-method="insertProductToCart">insertProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CrossPlatformSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-CrossPlatformSuite" class="hide-methods skipped suite-CrossPlatformSuite"> (hide)</a> <!-- hide-methods skipped suite-CrossPlatformSuite -->
+                      <a href="#" panel-name="suite-CrossPlatformSuite" class="show-methods skipped suite-CrossPlatformSuite"> (show)</a> <!-- show-methods skipped suite-CrossPlatformSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-CrossPlatformSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossPlatformSuite" title="org.flipkart.addtocart.InsertProductToCart" class="method navigator-link" hash-for-method="insertProductToCart">insertProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossPlatformSuite" title="org.flipkart.addtocart.InsertProductToCart" class="method navigator-link" hash-for-method="insertProductToCart">insertProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossPlatformSuite" title="org.flipkart.addtocart.InsertProductToCart" class="method navigator-link" hash-for-method="insertProductToCart">insertProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossPlatformSuite" title="org.flipkart.addtocart.InsertProductToCart" class="method navigator-link" hash-for-method="insertProductToCart">insertProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-CrossPlatformSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CrossPlatformSuite" class="panel CrossPlatformSuite">
+          <div class="suite-CrossPlatformSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.flipkart.addtocart.InsertProductToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertProductToCart">
+                  </a> <!-- insertProductToCart -->
+                  <span class="method-name">insertProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=76, noReset=true, viewportRect={top=76, left=0, width=1080, height=2144}, deviceName=x4soukivqw59pnjr, platform=LINUX, deviceUDID=x4soukivqw59pnjr, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=x4soukivqw59pnjr}, platformVersion=11, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=x4soukivqw59pnjr, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=2.75, locationContextEnabled=false, deviceScreenDensity=440, deviceModel=Redmi Note 8 Pro}]
+Session ID: 3be9c0af-1c07-4b88-b4c6-3bbf8bd80474
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Brand Mall&apos;]/parent::android.view.ViewGroup/android.view.ViewGroup[@index=&apos;2&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.HomePage.searchProduct(HomePage.java:31)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertProductToCart">
+                  </a> <!-- insertProductToCart -->
+                  <span class="method-name">insertProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=77, noReset=true, viewportRect={top=77, left=0, width=720, height=1334}, deviceName=R9ZNC03VN6X, platform=LINUX, deviceUDID=R9ZNC03VN6X, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=R9ZNC03VN6X}, platformVersion=12, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=R9ZNC03VN6X, deviceApiLevel=31, deviceManufacturer=samsung, deviceScreenSize=720x1560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=1.75, locationContextEnabled=false, deviceScreenDensity=280, deviceModel=SM-M115F}]
+Session ID: 24e49bc7-7c5f-422b-92c5-8b8bc844470f
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossPlatformSuite-class-failed -->
+          <div class="suite-CrossPlatformSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.flipkart.addtocart.InsertProductToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertProductToCart">
+                  </a> <!-- insertProductToCart -->
+                  <span class="method-name">insertProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=76, noReset=true, viewportRect={top=76, left=0, width=1080, height=2144}, deviceName=x4soukivqw59pnjr, platform=LINUX, deviceUDID=x4soukivqw59pnjr, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=x4soukivqw59pnjr}, platformVersion=11, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=x4soukivqw59pnjr, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=2.75, locationContextEnabled=false, deviceScreenDensity=440, deviceModel=Redmi Note 8 Pro}]
+Session ID: 76e12aec-9722-4719-be66-1540f3ac4c1b
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertProductToCart">
+                  </a> <!-- insertProductToCart -->
+                  <span class="method-name">insertProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.xpath: //android.widget.TextView[@text=&apos;Brand Mall&apos;]/parent::android.view.ViewGroup/android.view.ViewGroup[@index=&apos;2&apos;]&apos; does not exist in DOM anymore (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=76, noReset=true, viewportRect={top=76, left=0, width=1080, height=2144}, deviceName=x4soukivqw59pnjr, platform=LINUX, deviceUDID=x4soukivqw59pnjr, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=x4soukivqw59pnjr}, platformVersion=11, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=x4soukivqw59pnjr, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=2.75, locationContextEnabled=false, deviceScreenDensity=440, deviceModel=Redmi Note 8 Pro}]
+Session ID: 90fa1938-142b-4a17-b927-af9c83db3bed
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:33)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.HomePage.searchProduct(HomePage.java:31)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertProductToCart">
+                  </a> <!-- insertProductToCart -->
+                  <span class="method-name">insertProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.62 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=77, noReset=true, viewportRect={top=77, left=0, width=720, height=1334}, deviceName=R9ZNC03VN6X, platform=LINUX, deviceUDID=R9ZNC03VN6X, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=R9ZNC03VN6X}, platformVersion=12, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=R9ZNC03VN6X, deviceApiLevel=31, deviceManufacturer=samsung, deviceScreenSize=720x1560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=1.75, locationContextEnabled=false, deviceScreenDensity=280, deviceModel=SM-M115F}]
+Session ID: b610803e-c703-4455-80b4-6c36b23ab007
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertProductToCart">
+                  </a> <!-- insertProductToCart -->
+                  <span class="method-name">insertProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.58 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-G609BEC&apos;, ip: &apos;192.168.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, statBarHeight=77, noReset=true, viewportRect={top=77, left=0, width=720, height=1334}, deviceName=R9ZNC03VN6X, platform=LINUX, deviceUDID=R9ZNC03VN6X, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, noReset=true, platformVersion=12, platformName=Android, udid=R9ZNC03VN6X}, platformVersion=12, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=R9ZNC03VN6X, deviceApiLevel=31, deviceManufacturer=samsung, deviceScreenSize=720x1560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, pixelRatio=1.75, locationContextEnabled=false, deviceScreenDensity=280, deviceModel=SM-M115F}]
+Session ID: 163d9f02-3abc-43ee-ae69-a4a02c0fbf4f
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Add to cart&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at org.objectRepository.ProductPage.clickAddToCart(ProductPage.java:42)
+	at org.flipkart.addtocart.InsertProductToCart.insertProductToCart(InsertProductToCart.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossPlatformSuite-class-skipped -->
+        </div> <!-- panel CrossPlatformSuite -->
+        <div panel-name="test-xml-CrossPlatformSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\git\repository7\AppiumProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;CrossPlatformSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.tyss.universalUtility.ListenerImpClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;RealDeviceTest&quot;&gt;
+    &lt;parameter name=&quot;activity&quot; value=&quot;com.flipkart.android.activity.HomeFragmentHolderActivity&quot;/&gt;
+    &lt;parameter name=&quot;apppackage&quot; value=&quot;com.flipkart.android&quot;/&gt;
+    &lt;parameter name=&quot;appiumServer&quot; value=&quot;http://127.0.0.1:4723/wd/hub&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;R9ZNC03VN6X&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;12&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.flipkart.addtocart.InsertProductToCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RealDeviceTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;RealDeviceTest2&quot;&gt;
+    &lt;parameter name=&quot;activity&quot; value=&quot;com.flipkart.android.activity.HomeFragmentHolderActivity&quot;/&gt;
+    &lt;parameter name=&quot;apppackage&quot; value=&quot;com.flipkart.android&quot;/&gt;
+    &lt;parameter name=&quot;appiumServer&quot; value=&quot;http://127.0.0.1:4724/wd/hub&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;x4soukivqw59pnjr&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;12&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.flipkart.addtocart.InsertProductToCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RealDeviceTest2 --&gt;
+&lt;/suite&gt; &lt;!-- CrossPlatformSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CrossPlatformSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CrossPlatformSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RealDeviceTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RealDeviceTest2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CrossPlatformSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CrossPlatformSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CrossPlatformSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CrossPlatformSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CrossPlatformSuite');
+function tableData_CrossPlatformSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'insertProductToCart')
+data.setCell(0, 2, 'org.flipkart.addtocart.InsertProductToCart')
+data.setCell(0, 3, 27798);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'insertProductToCart')
+data.setCell(1, 2, 'org.flipkart.addtocart.InsertProductToCart')
+data.setCell(1, 3, 25909);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'insertProductToCart')
+data.setCell(2, 2, 'org.flipkart.addtocart.InsertProductToCart')
+data.setCell(2, 3, 25778);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'insertProductToCart')
+data.setCell(3, 2, 'org.flipkart.addtocart.InsertProductToCart')
+data.setCell(3, 3, 22720);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'insertProductToCart')
+data.setCell(4, 2, 'org.flipkart.addtocart.InsertProductToCart')
+data.setCell(4, 3, 10098);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'insertProductToCart')
+data.setCell(5, 2, 'org.flipkart.addtocart.InsertProductToCart')
+data.setCell(5, 3, 3970);
+window.suiteTableData['CrossPlatformSuite']= { tableData: data, tableDiv: 'times-div-CrossPlatformSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-CrossPlatformSuite">
+              </div> <!-- times-div-CrossPlatformSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CrossPlatformSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CrossPlatformSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CrossPlatformSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CrossPlatformSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.flipkart.addtocart.InsertProductToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">5687 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">5688 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(R9ZNC03VN6X, com.flipkart.android, com.flipkart.android.activity.HomeFragmentHolderActivity, 12, htt...)</span>
+                <span class="method-start">5719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(x4soukivqw59pnjr, com.flipkart.android, com.flipkart.android.activity.HomeFragmentHolderActivity, 12...)</span>
+                <span class="method-start">5719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertProductToCart</span>
+                <span class="method-start">57047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">insertProductToCart</span>
+                <span class="method-start">58355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">79994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(x4soukivqw59pnjr, com.flipkart.android, com.flipkart.android.activity.HomeFragmentHolderActivity, 12...)</span>
+                <span class="method-start">81398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">84140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(R9ZNC03VN6X, com.flipkart.android, com.flipkart.android.activity.HomeFragmentHolderActivity, 12, htt...)</span>
+                <span class="method-start">84942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertProductToCart</span>
+                <span class="method-start">106957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">110934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(x4soukivqw59pnjr, com.flipkart.android, com.flipkart.android.activity.HomeFragmentHolderActivity, 12...)</span>
+                <span class="method-start">111271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertProductToCart</span>
+                <span class="method-start">113707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">insertProductToCart</span>
+                <span class="method-start">140691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">141515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(R9ZNC03VN6X, com.flipkart.android, com.flipkart.android.activity.HomeFragmentHolderActivity, 12, htt...)</span>
+                <span class="method-start">142176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">151389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">classTearDown</span>
+                <span class="method-start">152112 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">insertProductToCart</span>
+                <span class="method-start">165597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">192764 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">classTearDown</span>
+                <span class="method-start">193136 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">195893 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
